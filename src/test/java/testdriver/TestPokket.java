@@ -42,7 +42,7 @@ public class TestPokket {
 		System.out.println("Entered Username");
 		element = driver.findElement(By.name("inputPassword"));
 		element.clear();
-		element.sendKeys("Test123@");
+		element.sendKeys("");
 		System.out.println("Entered Password");
 		element = driver.findElement(By.xpath("//button[@class='Button']"));
 		element.click();
